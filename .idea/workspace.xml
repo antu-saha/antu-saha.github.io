@@ -4,9 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5e8b1f8c-c0c0-4d77-a14f-65e763d988a6" name="Changes" comment="Updated news and publications.">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="5e8b1f8c-c0c0-4d77-a14f-65e763d988a6" name="Changes" comment="Updated publications." />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -82,6 +80,7 @@
       <workItem from="1691684576401" duration="1877000" />
       <workItem from="1720807889917" duration="4968000" />
       <workItem from="1724703033028" duration="1029000" />
+      <workItem from="1737642599993" duration="2157000" />
     </task>
     <task id="LOCAL-00001" summary="Test commit.">
       <created>1691684947209</created>
@@ -141,7 +140,23 @@
       <option name="project" value="LOCAL" />
       <updated>1724703191199</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Updated publications.">
+      <option name="closed" value="true" />
+      <created>1737643402062</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1737643402062</updated>
+    </task>
+    <task id="LOCAL-00010" summary="Updated publications.">
+      <option name="closed" value="true" />
+      <created>1737643546498</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1737643546498</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -154,6 +169,7 @@
     <MESSAGE value="Updated news and publications commit." />
     <MESSAGE value="Fix some bugs." />
     <MESSAGE value="Updated news and publications." />
-    <option name="LAST_COMMIT_MESSAGE" value="Updated news and publications." />
+    <MESSAGE value="Updated publications." />
+    <option name="LAST_COMMIT_MESSAGE" value="Updated publications." />
   </component>
 </project>
