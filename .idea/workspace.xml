@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5e8b1f8c-c0c0-4d77-a14f-65e763d988a6" name="Changes" comment="Updated publications." />
+    <list default="true" id="5e8b1f8c-c0c0-4d77-a14f-65e763d988a6" name="Changes" comment="Updated news and publications." />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -81,6 +81,7 @@
       <workItem from="1720807889917" duration="4968000" />
       <workItem from="1724703033028" duration="1029000" />
       <workItem from="1737642599993" duration="2157000" />
+      <workItem from="1739712763218" duration="8724000" />
     </task>
     <task id="LOCAL-00001" summary="Test commit.">
       <created>1691684947209</created>
@@ -156,7 +157,23 @@
       <option name="project" value="LOCAL" />
       <updated>1737643546498</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="Updated news and publications.">
+      <option name="closed" value="true" />
+      <created>1739718935631</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1739718935631</updated>
+    </task>
+    <task id="LOCAL-00012" summary="Updated news and publications.">
+      <option name="closed" value="true" />
+      <created>1739719201296</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1739719201296</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -168,8 +185,8 @@
     <MESSAGE value="Updated home, CV, projects, and teaching commit." />
     <MESSAGE value="Updated news and publications commit." />
     <MESSAGE value="Fix some bugs." />
-    <MESSAGE value="Updated news and publications." />
     <MESSAGE value="Updated publications." />
-    <option name="LAST_COMMIT_MESSAGE" value="Updated publications." />
+    <MESSAGE value="Updated news and publications." />
+    <option name="LAST_COMMIT_MESSAGE" value="Updated news and publications." />
   </component>
 </project>
