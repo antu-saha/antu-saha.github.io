@@ -89,6 +89,312 @@
 
     <h1>Publications</h1>
     <!-- <h6><span>*</span> denotes equal contribution and joint lead authorship.</h6> -->
+    <h4 class="mt-4">Manuscripts Under Review</h4>
+    <div class="row m-0 p-0" style="border-bottom: 1px solid #ddd;">
+        <div class="col-sm-11 p-0">
+            <ol class="bibliography">
+                <li>
+                    <div class="row m-0 mt-3 p-0">
+                        <div class="col-sm-1 p-0 abbr">
+                            <a class="badge font-weight-bold danger-color-dark align-middle" style="width: 53px;"
+                               href="#!">
+                                Preprint
+                            </a>
+                        </div>
+                        <div class="col-sm-11 mt-2 mt-sm-0 p-0 pl-xs-0 pl-sm-4 pr-xs-0 pr-sm-2">
+                            <div id="ui-bug-repair-agents" class="col p-0">
+                                <h5 class="title mb-0">What Bug Report Information Helps Agents Fix UI-Centric Bugs? An Empirical Study of Android UI Bug Repair</h5>
+                                <div class="author">
+                                    <nobr><em>Antu Saha</em>,</nobr>
+                                    <nobr>Sparsh Pandey,</nobr>
+                                    <nobr>Andrian Marcus,</nobr>
+                                    <nobr>Kevin Moran,</nobr>
+                                    and
+                                    <nobr>Oscar Chaparro.</nobr>
+                                </div>
+                                <div>
+                                    <p class="periodical font-italic">
+                                        Under review, 2026.
+                                    </p>
+                                </div>
+                                <div class="col p-0">
+                                    <a class="badge grey waves-effect font-weight-light mr-1" data-toggle="collapse"
+                                       href="#ui-bug-repair-agents-abstract" role="button"
+                                       aria-expanded="false" aria-controls="ui-bug-repair-agents-abstract">Abstract</a>
+                                    <a class="badge grey waves-effect font-weight-light mr-1"
+                                       href="/assets/pdf/papers/BR-Quality-APR.pdf" target="_blank">PDF</a>
+                                </div>
+                                <div class="col mt-2 p-0">
+                                    <div id="ui-bug-repair-agents-abstract" class="collapse">
+                                        <div class="abstract card card-body font-weight-light mr-0 mr-sm-3 p-3">
+                                            AI coding agents are increasingly used to fix bugs from issue reports, making the bug report the agent’s task specification. Recent studies found that agents benefit most from code-level information, such as fix locations, while traditional report components, such as the steps to reproduce, contribute little. However, these studies focus on developer-written issues for libraries and frameworks. UI-centric bugs present a different setting: their failures are experienced through the GUI, while end-user reports typically describe what users see and do rather than where the fault lies in the code. It is therefore unclear which report information helps agents repair UI-centric bugs.<br/><br/>In this paper, we present the first controlled empirical study of how bug report information affects AI coding agents repairing UI-centric Android bugs. We extend 50 real bugs from 23 open-source Android apps with structured reports and GUI information for their causing and manifesting screens, including screen and component descriptions, screenshots, and UI hierarchies. We derive 17 report configurations that remove traditional report components, add GUI information, or provide code localization. We run Codex, Claude, and Qwen three times on every bug and configuration, resulting in 7,650 repair attempts. We analyze repair success with mixed-effects logistic regression and agent trajectories to measure repair behavior and effort.<br/><br/>Our results show that report information matters, but its effects depend on the information and the agent. S2Rs have positive estimated effects for all three agents, while the OB is particularly important for Codex and the expected behavior adds little. Original user reports outperform structured reports, while UI hierarchies have the strongest positive estimated effect among GUI information. Code localization substantially increases the estimated odds of success for Claude, but not consistently across agents. Report information also changes repair effort and behavior, sometimes substantially, even when its effect on final success is limited. These findings show that useful report information for UI bug repair differs from what prior work found for library and framework bugs and that no single report configuration benefits all coding agents.
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <div class="row m-0 mt-3 p-0">
+                        <div class="col-sm-1 p-0 abbr">
+                            <a class="badge font-weight-bold danger-color-dark align-middle" style="width: 53px;"
+                               href="#!">
+                                Preprint
+                            </a>
+                        </div>
+                        <div class="col-sm-11 mt-2 mt-sm-0 p-0 pl-xs-0 pl-sm-4 pr-xs-0 pr-sm-2">
+                            <div id="burt-plus-plus" class="col p-0">
+                                <h5 class="title mb-0">BURT++: An Interactive AI-Powered Bug Reporting System for Mobile Applications</h5>
+                                <div class="author">
+                                    <nobr><em>Antu Saha</em>,</nobr>
+                                    <nobr>Sam Bennett,</nobr>
+                                    and
+                                    <nobr>Oscar Chaparro.</nobr>
+                                </div>
+                                <div>
+                                    <p class="periodical font-italic">
+                                        Under review, 2026.
+                                    </p>
+                                </div>
+                                <div class="col p-0">
+                                    <a class="badge grey waves-effect font-weight-light mr-1" data-toggle="collapse"
+                                       href="#burt-plus-plus-abstract" role="button"
+                                       aria-expanded="false" aria-controls="burt-plus-plus-abstract">Abstract</a>
+                                    <a class="badge grey waves-effect font-weight-light mr-1"
+                                       href="/assets/pdf/papers/BURT++.pdf" target="_blank">PDF</a>
+                                </div>
+                                <div class="col mt-2 p-0">
+                                    <div id="burt-plus-plus-abstract" class="collapse">
+                                        <div class="abstract card card-body font-weight-light mr-0 mr-sm-3 p-3">
+                                            Mobile app developers rely on end-user bug reports to fix defects. However, these reports are often incomplete or ambiguous, making defects difficult to reproduce and resolve, increasing maintenance costs. We developed BURT++, an AI-powered interactive bug- reporting system that guides users through natural-language conversation. It identifies missing information, asks follow-up questions, and grounds responses in application information. By transforming informal descriptions into structured, developer-ready bug reports, BURT++ helps developers resolve defects more efficiently, improving software reliability. This enables users to benefit from more dependable software in their daily lives.
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <div class="row m-0 mt-3 p-0">
+                        <div class="col-sm-1 p-0 abbr">
+                            <a class="badge font-weight-bold danger-color-dark align-middle" style="width: 53px;"
+                               href="https://arxiv.org/abs/2604.01148" target="_blank">
+                                arXiv
+                            </a>
+                        </div>
+                        <div class="col-sm-11 mt-2 mt-sm-0 p-0 pl-xs-0 pl-sm-4 pr-xs-0 pr-sm-2">
+                            <div id="bugscribe" class="col p-0">
+                                <h5 class="title mb-0">Automatically Enhancing the Quality of Android App Bug Reports</h5>
+                                <div class="author">
+                                    <nobr><em>Antu Saha</em>,</nobr>
+                                    <nobr>Atish Kumar Dipongkor,</nobr>
+                                    <nobr>Sam Bennett,</nobr>
+                                    <nobr>Kevin Moran,</nobr>
+                                    <nobr>Andrian Marcus,</nobr>
+                                    and
+                                    <nobr>Oscar Chaparro.</nobr>
+                                </div>
+                                <div>
+                                    <p class="periodical font-italic">
+                                        arXiv preprint arXiv:2604.01148, 2026. Under review.
+                                    </p>
+                                </div>
+                                <div class="col p-0">
+                                    <a class="badge grey waves-effect font-weight-light mr-1" data-toggle="collapse"
+                                       href="#bugscribe-abstract" role="button"
+                                       aria-expanded="false" aria-controls="bugscribe-abstract">Abstract</a>
+                                    <a class="badge grey waves-effect font-weight-light mr-1"
+                                       href="https://arxiv.org/pdf/2604.01148" target="_blank">PDF</a>
+                                </div>
+                                <div class="col mt-2 p-0">
+                                    <div id="bugscribe-abstract" class="collapse">
+                                        <div class="abstract card card-body font-weight-light mr-0 mr-sm-3 p-3">
+                                            Most defects in mobile applications are visually observable on the device screen. Since automated mechanisms for detecting and reporting such defects are often unavailable, users, testers, and developers must manually submit bug reports. However, these reports are frequently incomplete, ambiguous, or inaccurate, often lacking the information needed to understand, reproduce, and diagnose defects. This challenge is particularly prominent for UI-centric defects, where the relevant application behavior is difficult for end users to describe precisely. We formulate automatic bug report enhancement as the problem of connecting user-written bug reports with application execution. We present BugScribe, an LLM-powered approach that links bug report information with app-specific UI execution information to infer and generate accurate, complete, and correct Observed Behavior (OB), Expected Behavior (EB), and Steps to Reproduce (S2Rs). BugScribe employs a component-specific grounding strategy that provides the most relevant context to an LLM for generating each bug report component. To support BugScribe's design and evaluation, we develop a bug report quality model and use it to identify the most effective context for each component. We evaluate BugScribe on 48 bug reports from 26 Android applications with manually constructed ground truth. Our results show that BugScribe generates higher-quality bug report components than the original reports and three LLM-based baselines, improving S2R quality by 44.1%&ndash;82.3% and OB/EB quality by 3.8%&ndash;35.2%.
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <div class="row m-0 mt-3 p-0">
+                        <div class="col-sm-1 p-0 abbr">
+                            <a class="badge font-weight-bold danger-color-dark align-middle" style="width: 53px;"
+                               href="https://arxiv.org/abs/2604.10345" target="_blank">
+                                arXiv
+                            </a>
+                        </div>
+                        <div class="col-sm-11 mt-2 mt-sm-0 p-0 pl-xs-0 pl-sm-4 pr-xs-0 pr-sm-2">
+                            <div id="code-change-rationale" class="col p-0">
+                                <h5 class="title mb-0">Fine-grained Multi-Document Extraction and Generation of Code Change Rationale</h5>
+                                <div class="author">
+                                    <nobr>Mehedi Sun,</nobr>
+                                    <nobr><em>Antu Saha</em>,</nobr>
+                                    <nobr>Nadeeshan De Silva,</nobr>
+                                    <nobr>Antonio Mastropaolo,</nobr>
+                                    and
+                                    <nobr>Oscar Chaparro.</nobr>
+                                </div>
+                                <div>
+                                    <p class="periodical font-italic">
+                                        arXiv preprint arXiv:2604.10345, 2026. Under review.
+                                    </p>
+                                </div>
+                                <div class="col p-0">
+                                    <a class="badge grey waves-effect font-weight-light mr-1" data-toggle="collapse"
+                                       href="#code-change-rationale-abstract" role="button"
+                                       aria-expanded="false" aria-controls="code-change-rationale-abstract">Abstract</a>
+                                    <a class="badge grey waves-effect font-weight-light mr-1"
+                                       href="https://arxiv.org/pdf/2604.10345" target="_blank">PDF</a>
+                                </div>
+                                <div class="col mt-2 p-0">
+                                    <div id="code-change-rationale-abstract" class="collapse">
+                                        <div class="abstract card card-body font-weight-light mr-0 mr-sm-3 p-3">
+                                            Understanding the reasons behind past code changes is critical for refactoring, code review, and debugging. However, code change rationale is often fragmented, inconsistently documented, and scattered across heterogeneous artifacts. We address this challenge with two contributions. First, we conduct an empirical study of nine rationale components from an established taxonomy and trace where they are documented across artifacts associated with 63 commits from five widely used open-source Java projects. Seven components appear in practice, and rationale is highly fragmented: commit messages and pull requests primarily capture GOAL, while NEED and ALTERNATIVE are more often found in issues and pull requests. No single artifact type consistently captures all components, which presents the need for cross-document reasoning. Second, we introduce ARGUS, an LLM-based approach that identifies sentences expressing GOAL, NEED, and ALTERNATIVE across a commit's artifacts and synthesizes them into concise rationale summaries. ARGUS achieved 51.4% overall precision and 93.2% recall for rationale identification and generated summaries rated as accurate relative to reference summaries. Experiments across different LLMs showed varying identification performance but consistently accurate summaries. A user study with 12 Java programmers found these summaries useful for understanding unfamiliar code changes and supporting code review, documentation, debugging, and maintenance.
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <div class="row m-0 mt-3 p-0">
+                        <div class="col-sm-1 p-0 abbr">
+                            <a class="badge font-weight-bold danger-color-dark align-middle" style="width: 53px;"
+                               href="https://arxiv.org/abs/2511.06501" target="_blank">
+                                arXiv
+                            </a>
+                        </div>
+                        <div class="col-sm-11 mt-2 mt-sm-0 p-0 pl-xs-0 pl-sm-4 pr-xs-0 pr-sm-2">
+                            <div id="solution-identification" class="col p-0">
+                                <h5 class="title mb-0">Automatically Identifying Solution-Related Content in Issue Report Discussions with Language Models</h5>
+                                <div class="author">
+                                    <nobr><em>Antu Saha</em>,</nobr>
+                                    <nobr>Mehedi Sun,</nobr>
+                                    and
+                                    <nobr>Oscar Chaparro.</nobr>
+                                </div>
+                                <div>
+                                    <p class="periodical font-italic">
+                                        arXiv preprint arXiv:2511.06501, 2025. Under review.
+                                    </p>
+                                </div>
+                                <div class="col p-0">
+                                    <a class="badge grey waves-effect font-weight-light mr-1" data-toggle="collapse"
+                                       href="#solution-identification-abstract" role="button"
+                                       aria-expanded="false" aria-controls="solution-identification-abstract">Abstract</a>
+                                    <a class="badge grey waves-effect font-weight-light mr-1"
+                                       href="https://arxiv.org/pdf/2511.06501" target="_blank">PDF</a>
+                                </div>
+                                <div class="col mt-2 p-0">
+                                    <div id="solution-identification-abstract" class="collapse">
+                                        <div class="abstract card card-body font-weight-light mr-0 mr-sm-3 p-3">
+                                            During issue resolution, software developers rely on issue reports to discuss solutions for defects, feature requests, and other changes. These discussions contain proposed solutions&mdash;from design changes to code implementations&mdash;as well as their evaluations. Locating solution-related content is essential for investigating reopened issues, addressing regressions, reusing solutions, and understanding code change rationale. Manually understanding long discussions to identify such content can be difficult and time-consuming. This paper automates solution identification using language models as supervised classifiers. We investigate three applications&mdash;embeddings, prompting, and fine-tuning&mdash;across three classifier types: traditional ML models (MLMs), pre-trained language models (PLMs), and large language models (LLMs). Using 356 Mozilla Firefox issues, we created a dataset to train and evaluate six MLMs, four PLMs, and two LLMs across 68 configurations. Results show that MLMs with LLM embeddings outperform TF-IDF features, prompting underperforms, and fine-tuned LLMs achieve the highest performance, with LLAMAft reaching 0.716 F1 score. Ensembles of the best models further improve results (0.737 F1). Misclassifications often arise from misleading clues or missing context, highlighting the need for context-aware classifiers. Models trained on Mozilla transfer to other projects, with a small amount of project-specific data, further enhancing results. This work supports software maintenance, issue understanding, and solution reuse.
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+            </ol>
+        </div>
+        <div class="col-sm-1 align-self-end mt-2 p-0 pr-1">
+            <h3 class="bibliography-year"></h3>
+        </div>
+    </div>
+    <h4 class="mt-5">Refereed Publications</h4>
+    <h6><span>*</span> denotes equal contribution.</h6>
+    <div class="row m-0 p-0" style="border-bottom: 1px solid #ddd;">
+        <div class="col-sm-11 p-0">
+            <ol class="bibliography">
+                <li>
+                    <div class="row m-0 mt-3 p-0">
+                        <div class="col-sm-1 p-0 abbr">
+                            <a class="badge font-weight-bold danger-color-dark align-middle" style="width: 53px;"
+                               href="https://conf.researchr.org/home/icsme-2026" target="_blank">
+                                ICSME'26
+                            </a>
+                        </div>
+                        <div class="col-sm-11 mt-2 mt-sm-0 p-0 pl-xs-0 pl-sm-4 pr-xs-0 pr-sm-2">
+                            <div id="ai-ml-issue-resolution-2026" class="col p-0">
+                                <h5 class="title mb-0">Rethinking Issue Resolution for AI/ML Systems</h5>
+                                <div class="author">
+                                    <nobr>Ahmed Adnan,</nobr>
+                                    <nobr>Mushfiqur Rahman,</nobr>
+                                    <nobr><em>Antu Saha</em>,</nobr>
+                                    and
+                                    <nobr>Oscar Chaparro.</nobr>
+                                </div>
+                                <div>
+                                    <p class="periodical font-italic">
+                                        In Proceedings of the 42nd International Conference on Software Maintenance and Evolution (ICSME), Vision Track, 2026.
+                                    </p>
+                                </div>
+                                <div class="col p-0">
+                                    <a class="badge grey waves-effect font-weight-light mr-1" data-toggle="collapse"
+                                       href="#ai-ml-issue-resolution-2026-abstract" role="button"
+                                       aria-expanded="false" aria-controls="ai-ml-issue-resolution-2026-abstract">Abstract</a>
+                                    <a class="badge grey waves-effect font-weight-light mr-1"
+                                       href="https://arxiv.org/pdf/2607.14657" target="_blank">PDF</a>
+                                </div>
+                                <div class="col mt-2 p-0">
+                                    <div id="ai-ml-issue-resolution-2026-abstract" class="collapse">
+                                        <div class="abstract card card-body font-weight-light mr-0 mr-sm-3 p-3">
+                                            We advocate for AI/ML issue resolution frameworks tailored to maintenance workflows and the nature of modern AI/ML systems. Existing issue resolution frameworks largely emerged for traditional software maintenance practices and do not explicitly account for characteristics common in AI/ML systems, such as stochastic behavior, experimentation-driven workflows, and heterogeneous artifacts beyond source code. To identify the unique characteristics of issue resolution in AI/ML systems and motivate the need for tailored frameworks, we conducted a qualitative study of issue resolution workflows documented in 100 issue reports and pull requests across four widely used AI/ML systems: TensorFlow, scikit-learn, MLflow, and AutoGPT. Our findings suggest that issue resolution in AI/ML systems involves: recurring AI/ML-related activities that span multiple resolution stages; iterative experimentation and adaptive verification; and coordinated changes across artifacts such as datasets, prompts, and model configurations. We also observed challenges related to reproducibility, nondeterministic behavior, and artifact coordination. Building on these findings, we present a vision for AI/ML issue resolution frameworks and discuss research directions and tooling support needed to realize this vision.
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <div class="row m-0 mt-3 p-0">
+                        <div class="col-sm-1 p-0 abbr">
+                            <a class="badge font-weight-bold danger-color-dark align-middle" style="width: 53px;"
+                               href="https://conf.researchr.org/home/icse-2026" target="_blank">
+                                ICSE'26
+                            </a>
+                        </div>
+                        <div class="col-sm-11 mt-2 mt-sm-0 p-0 pl-xs-0 pl-sm-4 pr-xs-0 pr-sm-2">
+                            <div id="doctoral-symposium-2026" class="col p-0">
+                                <h5 class="title mb-0">Studying and Automating Issue Resolution for Software Quality</h5>
+                                <div class="author">
+                                    <nobr><em>Antu Saha</em>.</nobr>
+                                </div>
+                                <div>
+                                    <p class="periodical font-italic">
+                                        In Proceedings of the 48th IEEE/ACM International Conference on Software Engineering (ICSE), Doctoral Symposium, 2026.
+                                    </p>
+                                </div>
+                                <div class="col p-0">
+                                    <a class="badge grey waves-effect font-weight-light mr-1" data-toggle="collapse"
+                                       href="#doctoral-symposium-2026-abstract" role="button"
+                                       aria-expanded="false" aria-controls="doctoral-symposium-2026-abstract">Abstract</a>
+                                    <a class="badge grey waves-effect font-weight-light mr-1"
+                                       href="https://arxiv.org/pdf/2512.10238" target="_blank">PDF</a>
+                                </div>
+                                <div class="col mt-2 p-0">
+                                    <div id="doctoral-symposium-2026-abstract" class="collapse">
+                                        <div class="abstract card card-body font-weight-light mr-0 mr-sm-3 p-3">
+                                            Effective issue resolution is crucial for maintaining software quality. Yet developers frequently encounter challenges such as low-quality issue reports, limited understanding of real-world workflows, and a lack of automated support. This research aims to address these challenges through three complementary directions. First, we enhance issue report quality by proposing techniques that leverage LLM reasoning and application-specific information. Second, we empirically characterize developer workflows in both traditional and AI-augmented systems. Third, we automate cognitively demanding resolution tasks, including buggy UI localization and solution identification, through ML, DL, and LLM-based approaches. Together, our work delivers empirical insights, practical tools, and automated methods to advance AI-driven issue resolution, supporting more maintainable and high-quality software systems.
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+            </ol>
+        </div>
+        <div class="col-sm-1 align-self-end mt-2 p-0 pr-1">
+            <h3 class="bibliography-year">2026</h3>
+        </div>
+    </div>
 
     <div class="row m-0 p-0" style="border-bottom: 1px solid #ddd;">
         <div class="col-sm-11 p-0">
@@ -165,10 +471,11 @@
                             <div id="astrobr-2025" class="col p-0">
                                 <h5 class="title mb-0">Combining Language and App UI Analysis for the Automated Assessment of Bug Reproduction Steps</h5>
                                 <div class="author">
-                                    <nobr>Junayed Mahmud,</nobr>
-                                    <nobr><em>Antu Saha</em>,</nobr>
-                                    <nobr>Oscar Chaparro.</nobr>
+                                                                        <nobr>Junayed Mahmud<sup>*</sup>,</nobr>
+                                    <nobr><em>Antu Saha</em><sup>*</sup>,</nobr>
+                                    <nobr>Oscar Chaparro,</nobr>
                                     <nobr>Kevin Moran,</nobr>
+                                    and
                                     <nobr>Andrian Marcus.</nobr>
                                 </div>
                                 <div>
@@ -180,7 +487,7 @@
                                 <div class="col p-0">
                                     <a class="badge grey waves-effect font-weight-light mr-1" data-toggle="collapse"
                                        href="#astrobr-2025-abstract" role="button"
-                                       aria-expanded="false" aria-controls="issue-resolution-pattern-2025-abstract">Abstract</a>
+                                       aria-expanded="false" aria-controls="astrobr-2025-abstract">Abstract</a>
                                     <a class="badge grey waves-effect font-weight-light mr-1"
                                        href="https://arxiv.org/pdf/2502.04251" target="_blank">PDF</a>
                                     <!-- <a class="badge grey waves-effect font-weight-light mr-1"
@@ -226,21 +533,20 @@
                             <div id="sprint-2025" class="col p-0">
                                 <h5 class="title mb-0">SPRINT: An Assistant for Issue Report Management</h5>
                                 <div class="author">
-                                    <nobr>Ahmed Adnan</nobr>
+                                    <nobr>Ahmed Adnan,</nobr>
                                     <nobr><em>Antu Saha</em>,</nobr>
                                     and
                                     <nobr>Oscar Chaparro.</nobr>
                                 </div>
                                 <div>
                                     <p class="periodical font-italic">
-                                        In Proceedings of the 47th IEEE/ACM International Conference on Software Engineering (ICSE), 2025.
+                                        In Proceedings of the 22nd IEEE/ACM International Conference on Mining Software Repositories (MSR), Tool Demo Track, 2025.
                                     </p>
                                 </div>
-
                                 <div class="col p-0">
                                     <a class="badge grey waves-effect font-weight-light mr-1" data-toggle="collapse"
                                        href="#sprint-2025-abstract" role="button"
-                                       aria-expanded="false" aria-controls="issue-resolution-pattern-2025-abstract">Abstract</a>
+                                       aria-expanded="false" aria-controls="sprint-2025-abstract">Abstract</a>
                                     <a class="badge grey waves-effect font-weight-light mr-1"
                                        href="https://arxiv.org/pdf/2502.04147" target="_blank">PDF</a>
                                     <!-- <a class="badge grey waves-effect font-weight-light mr-1"
@@ -295,7 +601,7 @@
                                 </div>
                                 <div>
                                     <p class="periodical font-italic">
-                                        In Proceedings of the 33rd ACM International Symposium on Software Testing and Analysis (ISSTA), 2024.
+                                        In Proceedings of the 33rd ACM International Symposium on Software Testing and Analysis (ISSTA), 2024, pp. 1249&ndash;1261.
                                     </p>
                                 </div>
 
@@ -357,7 +663,7 @@
                                 </div>
                                 <div>
                                     <p class="periodical font-italic">
-                                        In Indonesian Journal of Electrical Engineering and Computer Science (IJEECS),
+                                        In Indonesian Journal of Electrical Engineering and Computer Science (IJEECS), vol. 24,
                                         2021.
                                     </p>
                                 </div>
@@ -412,7 +718,7 @@
                     <div class="row m-0 mt-3 p-0">
                         <div class="col-sm-1 p-0 abbr">
                             <a class="badge font-weight-bold danger-color-dark align-middle" style="width: 53px;"
-                               href="https://ieeexplore.ieee.org/xpl/conhome/10101485/proceeding" target="_blank">
+                               href="https://ieeexplore.ieee.org/xpl/conhome/8672433/proceeding" target="_blank">
                                 ECCE'19
                             </a>
                         </div>
@@ -2874,7 +3180,7 @@
 
 <!-- Footer -->
 <footer>
-    &copy; Copyright 2023 Antu Saha.
+    &copy; Copyright 2026 Antu Saha.
 
 
 </footer>
