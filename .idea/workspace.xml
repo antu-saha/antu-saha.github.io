@@ -4,15 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5e8b1f8c-c0c0-4d77-a14f-65e763d988a6" name="Changes" comment="Updated CV.">
-      <change afterPath="$PROJECT_DIR$/assets/pdf/papers/BR-Quality-APR.pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/pdf/papers/BURT++.pdf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/pdf/CV.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/assets/pdf/CV.pdf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/projects/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/projects/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/publications/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/publications/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/teaching/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/teaching/index.html" afterDir="false" />
+    <list default="true" id="5e8b1f8c-c0c0-4d77-a14f-65e763d988a6" name="Changes" comment="Overall updated.">
+      <change beforePath="$PROJECT_DIR$/CNAME" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,6 +36,65 @@
   <component name="McpProjectServerCommands">
     <commands />
     <urls />
+  </component>
+  <component name="NextEditCompletionFeaturesState">
+    <decayedCancelled>
+      <entry key="MS100" value="1.0043044657356301" />
+      <entry key="MS500" value="1.388596910599012" />
+      <entry key="S2" value="2.529792613833033" />
+      <entry key="S5" value="3.3542582749099052" />
+      <entry key="S10" value="3.911527615022491" />
+      <entry key="S30" value="4.539130133745044" />
+      <entry key="S60" value="4.753437337341511" />
+      <entry key="M2" value="4.872316521712978" />
+      <entry key="M5" value="4.947818587464672" />
+      <entry key="M10" value="4.973720147126254" />
+      <entry key="M15" value="4.982437727113512" />
+      <entry key="M30" value="4.991197592807451" />
+      <entry key="H1" value="4.995593462666523" />
+      <entry key="H2" value="4.997795395887204" />
+      <entry key="H4" value="4.998897363830272" />
+      <entry key="D1" value="4.9998161808790265" />
+      <entry key="W1" value="4.9999737389883325" />
+    </decayedCancelled>
+    <decayedSelected>
+      <entry key="MS100" value="0.0" />
+      <entry key="MS500" value="0.0" />
+      <entry key="S2" value="0.0" />
+      <entry key="S5" value="0.0" />
+      <entry key="S10" value="0.0" />
+      <entry key="S30" value="0.0" />
+      <entry key="S60" value="0.0" />
+      <entry key="M2" value="0.0" />
+      <entry key="M5" value="0.0" />
+      <entry key="M10" value="0.0" />
+      <entry key="M15" value="0.0" />
+      <entry key="M30" value="0.0" />
+      <entry key="H1" value="0.0" />
+      <entry key="H2" value="0.0" />
+      <entry key="H4" value="0.0" />
+      <entry key="D1" value="0.0" />
+      <entry key="W1" value="0.0" />
+    </decayedSelected>
+    <decayedShown>
+      <entry key="MS100" value="0.9768708265174447" />
+      <entry key="MS500" value="1.3813354544732845" />
+      <entry key="S2" value="2.5264849858110088" />
+      <entry key="S5" value="3.3523110755453236" />
+      <entry key="S10" value="3.9101949395243105" />
+      <entry key="S30" value="4.538511764929241" />
+      <entry key="S60" value="4.753095301695294" />
+      <entry key="M2" value="4.87213613971949" />
+      <entry key="M5" value="4.9477440224833735" />
+      <entry key="M10" value="4.973682448080122" />
+      <entry key="M15" value="4.98241250074274" />
+      <entry key="M30" value="4.991184932506119" />
+      <entry key="H1" value="4.995587120684231" />
+      <entry key="H2" value="4.997792221931549" />
+      <entry key="H4" value="4.998895776110491" />
+      <entry key="D1" value="4.999815916155944" />
+      <entry key="W1" value="4.999973701168224" />
+    </decayedShown>
   </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 3
@@ -117,7 +169,7 @@
       <workItem from="1737642599993" duration="2157000" />
       <workItem from="1739712763218" duration="8724000" />
       <workItem from="1751040117938" duration="1180000" />
-      <workItem from="1791414099759" duration="1451000" />
+      <workItem from="1791414099759" duration="2194000" />
     </task>
     <task id="LOCAL-00001" summary="Test commit.">
       <created>1691684947209</created>
@@ -225,7 +277,15 @@
       <option name="project" value="LOCAL" />
       <updated>1751040394475</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="Overall updated.">
+      <option name="closed" value="true" />
+      <created>1791416888841</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1791416888841</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -241,6 +301,7 @@
     <MESSAGE value="Updated news and publications." />
     <MESSAGE value="Updated paper." />
     <MESSAGE value="Updated CV." />
-    <option name="LAST_COMMIT_MESSAGE" value="Updated CV." />
+    <MESSAGE value="Overall updated." />
+    <option name="LAST_COMMIT_MESSAGE" value="Overall updated." />
   </component>
 </project>
