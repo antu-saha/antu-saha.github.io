@@ -184,6 +184,52 @@
                             </a>
                         </div>
                         <div class="col-sm-11 mt-2 mt-sm-0 p-0 pl-xs-0 pl-sm-4 pr-xs-0 pr-sm-2">
+                            <div id="ui-apr-swe-agents" class="col p-0">
+                                <h5 class="title mb-0">One Screen, Many Patches: Software Engineering Agents and the Repair of UI-centric Android Bugs</h5>
+                                <div class="author">
+                                    <nobr>Sparsh Pandey,</nobr>
+                                    <nobr>Jingjing Wu,</nobr>
+                                    <nobr>Junayed Mahmud,</nobr>
+                                    <nobr>Nadeeshan De Silva,</nobr>
+                                    <nobr><em>Antu Saha</em>,</nobr>
+                                    <nobr>Atish Kumar Dipongkor,</nobr>
+                                    <nobr>Oscar Chaparro,</nobr>
+                                    <nobr>Mattia Fazzini,</nobr>
+                                    and
+                                    <nobr>Kevin Moran.</nobr>
+                                </div>
+                                <div>
+                                    <p class="periodical font-italic">
+                                        Under review, 2026.
+                                    </p>
+                                </div>
+                                <div class="col p-0">
+                                    <a class="badge grey waves-effect font-weight-light mr-1" data-toggle="collapse"
+                                       href="#ui-apr-swe-agents-abstract" role="button"
+                                       aria-expanded="false" aria-controls="ui-apr-swe-agents-abstract">Abstract</a>
+                                    <a class="badge grey waves-effect font-weight-light mr-1"
+                                       href="/assets/pdf/papers/UI-APR.pdf" target="_blank">PDF</a>
+                                </div>
+                                <div class="col mt-2 p-0">
+                                    <div id="ui-apr-swe-agents-abstract" class="collapse">
+                                        <div class="abstract card card-body font-weight-light mr-0 mr-sm-3 p-3">
+                                            Software engineering (SWE) agents, which pair a large language model with tools for exploring, editing, building, and testing a codebase, have rapidly become the leading approach for automated program repair. However, they are evaluated almost exclusively on library and framework code whose behavior is checked by unit tests. In particular, the research community currently lacks an understanding of how agents perform on bugs in UI-centric programs, such as mobile apps. These bugs carry with them unique challenges, including event-driven control flow, lifecycle-dependent state, and behavior that is only observable on screen.<br/><br/>In this paper, we conduct the first empirical study of SWE agents on UI-centric bugs. We apply three state-of-the-art agents, Claude, Codex, and Gemini, to the 50 real bugs of DroidFixBench under four configurations that vary whether the agent receives fault localization and bug-revealing tests, yielding 600 repair attempts. We analyze these attempts in terms of effectiveness, trajectories and cost, fix complexity, and the root cause of every failed patch. Our results illustrate that agents produce test-passing patches in 74% of attempts, yet only 14% of patches match the developer&rsquo;s fix. The complexity of the developer&rsquo;s fix does not predict whether agents produce a test-passing patch, unlike for LLM-based repair of traditional bugs, and agents instead tend to repair a bug at fewer locations than the developer did. The failures that remain stem mostly from mis-scoped fixes and from Android&rsquo;s activity lifecycle. Additionally, we find that tests, rather than localization, are what change agent behavior, at three to four times the runtime. Our manual analysis of the 162 failures reveals 44 instances that pursue a different repair strategy that could be considered a different possible solution. This illustrates the large universe of potential repair strategies and points to a need for UI-aware tooling and richer oracles as key directions for the agentic repair of UI-centric software.
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <div class="row m-0 mt-3 p-0">
+                        <div class="col-sm-1 p-0 abbr">
+                            <a class="badge font-weight-bold danger-color-dark align-middle" style="width: 53px;"
+                               href="#!">
+                                Preprint
+                            </a>
+                        </div>
+                        <div class="col-sm-11 mt-2 mt-sm-0 p-0 pl-xs-0 pl-sm-4 pr-xs-0 pr-sm-2">
                             <div id="burt-plus-plus" class="col p-0">
                                 <h5 class="title mb-0">BURT++: An Interactive AI-Powered Bug Reporting System for Mobile Applications</h5>
                                 <div class="author">
