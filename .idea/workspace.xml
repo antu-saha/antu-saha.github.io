@@ -4,7 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5e8b1f8c-c0c0-4d77-a14f-65e763d988a6" name="Changes" comment="Added paper." />
+    <list default="true" id="5e8b1f8c-c0c0-4d77-a14f-65e763d988a6" name="Changes" comment="Updated paper.">
+      <change beforePath="$PROJECT_DIR$/publications/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/publications/index.html" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -38,23 +40,23 @@
   </component>
   <component name="NextEditCompletionFeaturesState">
     <decayedCancelled>
-      <entry key="MS100" value="1.0139454245488984" />
-      <entry key="MS500" value="1.7494359113889308" />
-      <entry key="S2" value="5.399716022259233" />
-      <entry key="S5" value="8.438945149515009" />
-      <entry key="S10" value="10.940118326622018" />
-      <entry key="S30" value="14.650249964869552" />
-      <entry key="S60" value="16.14472531917937" />
-      <entry key="M2" value="17.02574727242084" />
-      <entry key="M5" value="17.891287567978218" />
-      <entry key="M10" value="19.01149326640303" />
-      <entry key="M15" value="19.811234960192877" />
-      <entry key="M30" value="21.052267279003892" />
-      <entry key="H1" value="21.915874114924623" />
-      <entry key="H2" value="22.427034317104702" />
-      <entry key="H4" value="22.705329968209767" />
-      <entry key="D1" value="22.94970979425773" />
-      <entry key="W1" value="22.99278626680683" />
+      <entry key="MS100" value="1.0050672360595312" />
+      <entry key="MS500" value="1.8291519804361587" />
+      <entry key="S2" value="5.739424780617526" />
+      <entry key="S5" value="9.369935154880952" />
+      <entry key="S10" value="12.24351035011677" />
+      <entry key="S30" value="16.339713496558133" />
+      <entry key="S60" value="17.973768113923356" />
+      <entry key="M2" value="18.935648332101202" />
+      <entry key="M5" value="19.85345969886158" />
+      <entry key="M10" value="20.99144712746397" />
+      <entry key="M15" value="21.79733418513717" />
+      <entry key="M30" value="23.04490098351981" />
+      <entry key="H1" value="23.912046340899018" />
+      <entry key="H2" value="24.425077637998665" />
+      <entry key="H4" value="24.70433998089638" />
+      <entry key="D1" value="24.94954309175283" />
+      <entry key="W1" value="24.992762409240015" />
     </decayedCancelled>
     <decayedSelected>
       <entry key="MS100" value="0.0" />
@@ -76,23 +78,23 @@
       <entry key="W1" value="0.0" />
     </decayedSelected>
     <decayedShown>
-      <entry key="MS100" value="0.9864079898528678" />
-      <entry key="MS500" value="1.7406218657181394" />
-      <entry key="S2" value="5.39014057972697" />
-      <entry key="S5" value="8.432220859271029" />
-      <entry key="S10" value="10.935300891479303" />
-      <entry key="S30" value="14.6478415051871" />
-      <entry key="S60" value="16.143353388485103" />
-      <entry key="M2" value="17.025011498328194" />
-      <entry key="M5" value="17.890975801796984" />
-      <entry key="M10" value="19.011328115021175" />
-      <entry key="M15" value="19.811120625947215" />
-      <entry key="M30" value="21.052206867808913" />
-      <entry key="H1" value="21.915842787354936" />
-      <entry key="H2" value="22.427018322021144" />
-      <entry key="H4" value="22.705321880568064" />
-      <entry key="D1" value="22.949708433137914" />
-      <entry key="W1" value="22.99278607202936" />
+      <entry key="MS100" value="0.9842634494937932" />
+      <entry key="MS500" value="1.8185867855432705" />
+      <entry key="S2" value="5.728985364710296" />
+      <entry key="S5" value="9.362450508057346" />
+      <entry key="S10" value="12.238178697826587" />
+      <entry key="S30" value="16.337079708678925" />
+      <entry key="S60" value="17.972272274745738" />
+      <entry key="M2" value="18.9348471818552" />
+      <entry key="M5" value="19.853120872885256" />
+      <entry key="M10" value="20.991268289034146" />
+      <entry key="M15" value="21.79721068994704" />
+      <entry key="M30" value="23.04483597268565" />
+      <entry key="H1" value="23.91201270836217" />
+      <entry key="H2" value="24.425060489078408" />
+      <entry key="H4" value="24.704331315987947" />
+      <entry key="D1" value="24.94954163437255" />
+      <entry key="W1" value="24.99276220070983" />
     </decayedShown>
   </component>
   <component name="ProjectColorInfo">{
@@ -171,6 +173,7 @@
       <workItem from="1791414099759" duration="4984000" />
       <workItem from="1791501765761" duration="113000" />
       <workItem from="1791501894841" duration="1988000" />
+      <workItem from="1791837519969" duration="3979000" />
     </task>
     <task id="LOCAL-00001" summary="Test commit.">
       <created>1691684947209</created>
@@ -302,7 +305,23 @@
       <option name="project" value="LOCAL" />
       <updated>1791503219659</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="Added paper.">
+      <option name="closed" value="true" />
+      <created>1791837761394</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1791837761394</updated>
+    </task>
+    <task id="LOCAL-00019" summary="Updated paper.">
+      <option name="closed" value="true" />
+      <created>1791912283242</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1791912283242</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -316,10 +335,10 @@
     <MESSAGE value="Fix some bugs." />
     <MESSAGE value="Updated publications." />
     <MESSAGE value="Updated news and publications." />
-    <MESSAGE value="Updated paper." />
     <MESSAGE value="Updated CV." />
     <MESSAGE value="Overall updated." />
     <MESSAGE value="Added paper." />
-    <option name="LAST_COMMIT_MESSAGE" value="Added paper." />
+    <MESSAGE value="Updated paper." />
+    <option name="LAST_COMMIT_MESSAGE" value="Updated paper." />
   </component>
 </project>
