@@ -2,6 +2,10 @@ _site
 .sass-cache
 .jekyll-metadata
 .ruby-version
-Gemfile.lock
 .history
-.DS_store
+.DS_Store
+**/.DS_Store
+.idea/
+
+# Original photos (large, contain GPS metadata); web copies live in assets/img/gallery/
+assets/img/my_photos/

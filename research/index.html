@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <title>Research | Antu Saha</title>
+    <meta name="description" content="Research of Antu Saha: AI coding agents for UI bug repair, bug report quality and reproduction, and issue resolution in practice.">
+    <meta name="author" content="Antu Saha">
+    <link rel="canonical" href="https://antu-saha.github.io/research/">
+    <link rel="icon" type="image/svg+xml" href="/assets/img/favicon.svg">
+
+    <!-- Open Graph and Twitter cards -->
+    <meta property="og:type" content="website">
+    <meta property="og:site_name" content="Antu Saha">
+    <meta property="og:title" content="Research | Antu Saha">
+    <meta property="og:description" content="Research of Antu Saha: AI coding agents for UI bug repair, bug report quality and reproduction, and issue resolution in practice.">
+    <meta property="og:url" content="https://antu-saha.github.io/research/">
+    <meta property="og:image" content="https://antu-saha.github.io/assets/img/prof_pic.jpg">
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:title" content="Research | Antu Saha">
+    <meta name="twitter:description" content="Research of Antu Saha: AI coding agents for UI bug repair, bug report quality and reproduction, and issue resolution in practice.">
+    <meta name="twitter:image" content="https://antu-saha.github.io/assets/img/prof_pic.jpg">
+
+    <!-- Fonts and Icons -->
+    <link rel="stylesheet" type="text/css"
+          href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700|Roboto+Slab:100,300,400,500,700&amp;display=swap"/>
+
+    <!-- CSS Files -->
+    <link rel="stylesheet" href="/assets/css/all.min.css">
+    <link rel="stylesheet" href="/assets/css/academicons.min.css">
+    <link rel="stylesheet" href="/assets/css/main.css">
+    <link rel="stylesheet" href="/assets/css/custom.css">
+</head>
+<body>
+<!-- Header -->
+<nav id="navbar" class="navbar fixed-top navbar-expand-md grey lighten-5 z-depth-1 navbar-light">
+    <div class="container-fluid p-0">
+        <a class="navbar-brand title font-weight-lighter" href="/"><span class="font-weight-bold">Antu</span> Saha</a>
+        <button class="navbar-toggler ml-auto" type="button" data-toggle="collapse" data-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse text-right" id="navbarNav">
+            <ul class="navbar-nav ml-auto flex-nowrap">
+                <li class="nav-item">
+                    <a class="nav-link" href="/">About</a>
+                </li>
+                <li class="nav-item navbar-active font-weight-bold">
+                    <a class="nav-link" href="/research/" aria-current="page">Research<span class="sr-only"> (current)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="/publications/">Publications</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="/teaching/">Teaching</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="/cv/">CV</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="/resume/">R&eacute;sum&eacute;</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+<!-- Content -->
+<div class="content">
+    <h1>Research</h1>
+    <h6>I study how developers and AI coding agents resolve software issues, and I build techniques and tools that help them.</h6>
+
+    <div class="card research-card mt-4">
+        <div class="card-body">
+            <h3 class="theme-title"><i class="fas fa-robot" aria-hidden="true"></i>AI coding agents for UI bug repair</h3>
+            <p class="theme-lead">What agents need from a bug report, and how they repair bugs that users see on the screen.</p>
+            <ul class="research-items">
+            <li>
+                <h5>Bug report information for coding agents</h5>
+                <p>We ran the first controlled study of which bug report information helps AI coding agents repair UI-centric Android bugs. We used 50 bugs from 23 apps, three agents (Codex, Claude, and Qwen), and 17 report configurations, for 7,650 repair attempts.</p>
+                <p>Steps to reproduce had positive estimated effects for all three agents. Code localization reduced the median repair cost by 32% for Codex and 42% for Claude.</p>
+                <div class="chips"><a class="chip" href="/publications/#bug-report-info-agents" target="_blank" rel="noopener">FSE'27, under review</a></div>
+            </li>
+            <li>
+                <h5>How agents repair UI bugs</h5>
+                <p>A companion study analyzed 600 repair attempts on the same bugs. Agent patches passed the tests in 74% of attempts. Only 14% matched the developer's fix, but 356 of the 445 test-passing patches were valid alternative fixes, and only 7 overfit the tests.</p>
+                <div class="chips"><a class="chip" href="/publications/#agent-ui-bug-repair" target="_blank" rel="noopener">FSE'27, under review</a></div>
+            </li>
+            <li>
+                <h5>Tools and data</h5>
+                <p>INCEPTOR is a browser-based tool for exploring the trajectories of program repair agents. The SE AI Agent Index is a dataset of software engineering practices for agentic AI systems.</p>
+                <div class="chips"><a class="chip" href="/publications/#inceptor" target="_blank" rel="noopener">ICSE'27 Demo, under review</a><a class="chip" href="https://inceptor-tool.vercel.app/" target="_blank" rel="noopener">Live demo</a><a class="chip" href="/publications/#se-ai-agent-index" target="_blank" rel="noopener">MSR'27, under review</a></div>
+            </li>
+            </ul>
+        </div>
+    </div>
+    <div class="card research-card mt-4">
+        <div class="card-body">
+            <h3 class="theme-title"><i class="fas fa-bug" aria-hidden="true"></i>Bug report quality and reproduction</h3>
+            <p class="theme-lead">Techniques that connect bug reports to the app's UI and execution, so reports are easier to reproduce and fix.</p>
+            <ul class="research-items">
+            <li>
+                <h5>AstroBR</h5>
+                <p>AstroBR combines LLMs with dynamic app analysis to assess the steps to reproduce in bug reports. It outperformed the state of the art by 25.2% in S2R quality annotation and by 71.4% in missing-step identification.</p>
+                <div class="chips"><a class="chip" href="/publications/#astrobr-2025" target="_blank" rel="noopener">ICPC'25</a><a class="chip" href="https://doi.org/10.1109/ICPC66645.2025.00010" target="_blank" rel="noopener">Proceedings</a><a class="chip" href="https://arxiv.org/abs/2502.04251" target="_blank" rel="noopener">arXiv</a><a class="chip" href="https://zenodo.org/records/14822745" target="_blank" rel="noopener">Artifact</a></div>
+            </li>
+            <li>
+                <h5>BugScribe</h5>
+                <p>BugScribe grounds an LLM in the app's execution data to improve user-written bug reports. It improved the quality of the steps to reproduce by 44.2%&ndash;84.7% and raised an LLM agent's bug reproduction rate by 28.1%&ndash;57.7%.</p>
+                <div class="chips"><a class="chip" href="/publications/#bugscribe" target="_blank" rel="noopener">MSR'27, under review</a><a class="chip" href="https://arxiv.org/abs/2604.01148" target="_blank" rel="noopener">arXiv</a><a class="chip" href="https://zenodo.org/records/23624713" target="_blank" rel="noopener">Artifact</a></div>
+            </li>
+            <li>
+                <h5>Buggy UI localization</h5>
+                <p>We introduced the task of finding the buggy screens and UI components from a bug description, with a benchmark of 228 bug descriptions from 39 Android apps. Using the localized screens ranked the buggy code up to 12% more accurately.</p>
+                <div class="chips"><a class="chip" href="/publications/#buggy-ui-loc-2024" target="_blank" rel="noopener">ISSTA'24</a><a class="chip" href="https://doi.org/10.1145/3650212.3680357" target="_blank" rel="noopener">Proceedings</a><a class="chip" href="https://zenodo.org/records/12692994" target="_blank" rel="noopener">Artifact</a></div>
+            </li>
+            <li>
+                <h5>Burt++</h5>
+                <p>Burt++ is a conversational bug reporting agent. It asks follow-up questions grounded in the app's GUI until each part of the report is complete. The paper is in preparation.</p>
+                <div class="chips"><span class="chip chip-static">In preparation</span><a class="chip" href="https://github.com/sea-lab-wm/agentic_burt" target="_blank" rel="noopener">Code</a></div>
+            </li>
+            </ul>
+        </div>
+    </div>
+    <div class="card research-card mt-4">
+        <div class="card-body">
+            <h3 class="theme-title"><i class="fas fa-tasks" aria-hidden="true"></i>Issue resolution in practice</h3>
+            <p class="theme-lead">How developers resolve issues in real projects, and tools that support the hardest steps.</p>
+            <ul class="research-items">
+            <li>
+                <h5>Firefox</h5>
+                <p>We analyzed 356 Firefox issue reports, built a model of the resolution process, and derived a catalog of 47 resolution patterns.</p>
+                <div class="chips"><a class="chip" href="/publications/#issue-resolution-pattern-2025" target="_blank" rel="noopener">ICSE'25</a><a class="chip" href="https://doi.org/10.1109/ICSE55347.2025.00241" target="_blank" rel="noopener">Proceedings</a><a class="chip" href="https://arxiv.org/abs/2502.16546" target="_blank" rel="noopener">arXiv</a><a class="chip" href="https://zenodo.org/records/14860151" target="_blank" rel="noopener">Dataset</a></div>
+            </li>
+            <li>
+                <h5>AI/ML systems</h5>
+                <p>We studied 100 issues and pull requests from four AI/ML systems (TensorFlow, scikit-learn, MLflow, and AutoGPT). Fixes change datasets, prompts, and model configurations, not only code.</p>
+                <div class="chips"><a class="chip" href="/publications/#ai-ml-issue-resolution-2026" target="_blank" rel="noopener">ICSME'26</a><a class="chip" href="https://doi.org/10.1109/ICSME67971.2026.00144" target="_blank" rel="noopener">Proceedings</a><a class="chip" href="https://arxiv.org/abs/2607.14657" target="_blank" rel="noopener">arXiv</a></div>
+            </li>
+            <li>
+                <h5>Solution identification</h5>
+                <p>We compared traditional ML models, pre-trained language models, and LLMs in 68 configurations on 4,917 annotated comments. The best model, a fine-tuned LLM, found 83.8% of the solution-related comments.</p>
+                <div class="chips"><a class="chip" href="/publications/#solution-identification" target="_blank" rel="noopener">EMSE, major revision</a><a class="chip" href="https://arxiv.org/abs/2511.06501" target="_blank" rel="noopener">arXiv</a><a class="chip" href="https://github.com/sea-lab-wm/automatic_solution_identification_using_language_models" target="_blank" rel="noopener">Code</a></div>
+            </li>
+            <li>
+                <h5>Code change rationale</h5>
+                <p>We traced where rationale is documented across the artifacts of 63 commits and built ARGUS, an LLM-based approach that recovers it. ArgusVS brings this into the IDE.</p>
+                <div class="chips"><a class="chip" href="/publications/#code-change-rationale" target="_blank" rel="noopener">TOSEM, major revision</a><a class="chip" href="https://arxiv.org/abs/2604.10345" target="_blank" rel="noopener">arXiv</a><a class="chip" href="/publications/#argusvs" target="_blank" rel="noopener">ICSE'27 Demo, under review</a></div>
+            </li>
+            <li>
+                <h5>Sprint</h5>
+                <p>Sprint is a GitHub assistant that finds similar issues, predicts issue severity, and suggests code files to change.</p>
+                <div class="chips"><a class="chip" href="/publications/#sprint-2025" target="_blank" rel="noopener">MSR'25</a><a class="chip" href="https://doi.org/10.1109/MSR66628.2025.00025" target="_blank" rel="noopener">Proceedings</a><a class="chip" href="https://arxiv.org/abs/2502.04147" target="_blank" rel="noopener">arXiv</a><a class="chip" href="https://github.com/sea-lab-wm/sprint_issue_report_assistant_tool" target="_blank" rel="noopener">Code</a></div>
+            </li>
+            </ul>
+        </div>
+    </div>
+</div>
+
+<!-- Footer -->
+<footer>
+    &copy; Copyright <span id="footer-year">2026</span> Antu Saha.
+</footer>
+
+<!-- Core JavaScript Files -->
+<script src="/assets/js/jquery.min.js" type="text/javascript"></script>
+<script src="/assets/js/popper.min.js" type="text/javascript"></script>
+<script src="/assets/js/bootstrap.min.js" type="text/javascript"></script>
+<script src="/assets/js/mdb.min.js" type="text/javascript"></script>
+<script src="/assets/js/site.js" type="text/javascript"></script>
+</body>
+</html>
