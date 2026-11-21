@@ -66,12 +66,18 @@
 .research-interests p { margin-bottom: 8px; }
 
 /* ---------- Home page header: profile + photo slideshow ---------- */
-.hero { align-items: center; }
+.hero { align-items: stretch; }
 .hero-profile .profile-img { width: 100%; max-width: 220px; height: auto; }
 .hero-profile .title { font-size: 2.2rem; }
 .hero-photos { padding-right: 0; }
 #photo-carousel { border-radius: 6px; overflow: hidden; background: #1c1f24; box-shadow: 0 2px 8px rgba(0,0,0,.15); }
 #photo-carousel .carousel-item { position: relative; height: 320px; }
+/* Desktop: the slideshow matches the profile column's height */
+@media (min-width: 768px) {
+  .hero-photos { position: relative; min-height: 320px; }
+  #photo-carousel { position: absolute; top: 0; bottom: 0; left: 15px; right: 0; }
+  #photo-carousel .carousel-inner, #photo-carousel .carousel-item { height: 100%; }
+}
 #photo-carousel .photo-bg { position: absolute; inset: -20px; background-size: cover; background-position: center; filter: blur(18px) brightness(.55); }
 #photo-carousel .carousel-item img { position: relative; display: block; width: 100%; height: 100%; object-fit: contain; }
 #photo-carousel .photo-caption { position: absolute; left: 0; right: 0; bottom: 0; padding: 28px 16px 30px; color: #fff; font-size: .9rem; text-align: center; background: linear-gradient(transparent, rgba(0,0,0,.7)); }
@@ -137,3 +143,7 @@ progress::-moz-progress-bar { background-color: var(--accent); }
   .talk-photo { flex-basis: auto; align-self: stretch; max-width: 360px; }
   .talk-photo img { width: 100%; max-width: 360px; height: 200px; }
 }
+
+/* Facebook icon, same style as the other social icons */
+.fb-icon { background: #1877f2; background-clip: text; -webkit-background-clip: text; -webkit-text-fill-color: transparent; display: initial; }
+.fb-icon:hover { background: #5b9cf6; background-clip: text; -webkit-background-clip: text; -webkit-text-fill-color: transparent; text-decoration: none; }
