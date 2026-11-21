@@ -53,6 +53,9 @@
                     <a class="nav-link" href="/publications/">Publications</a>
                 </li>
                 <li class="nav-item">
+                    <a class="nav-link" href="/talks/">Talks</a>
+                </li>
+                <li class="nav-item">
                     <a class="nav-link" href="/teaching/">Teaching</a>
                 </li>
                 <li class="nav-item">
@@ -69,12 +72,12 @@
 <!-- Content -->
 <div class="content">
     <h1>Research</h1>
-    <h6>I study how developers and AI coding agents resolve software issues, and I build techniques and tools that help them.</h6>
+    <h6>I study how developers and AI coding agents resolve software issues. I also build techniques and tools to help them.</h6>
 
     <div class="card research-card mt-4">
         <div class="card-body">
             <h3 class="theme-title"><i class="fas fa-robot" aria-hidden="true"></i>AI coding agents for UI bug repair</h3>
-            <p class="theme-lead">What agents need from a bug report, and how they repair bugs that users see on the screen.</p>
+            <p class="theme-lead">We test which bug report content helps AI coding agents fix Android UI bugs, and we examine the patches the agents produce.</p>
             <ul class="research-items">
             <li>
                 <h5>Bug report content for coding agents</h5>
@@ -98,11 +101,11 @@
     <div class="card research-card mt-4">
         <div class="card-body">
             <h3 class="theme-title"><i class="fas fa-bug" aria-hidden="true"></i>Bug report quality and reproduction</h3>
-            <p class="theme-lead">Techniques that connect bug reports to the app's UI and execution, so reports are easier to reproduce and fix.</p>
+            <p class="theme-lead">These techniques connect bug reports to the app's UI and execution data. This makes the reports easier to reproduce and fix.</p>
             <ul class="research-items">
             <li>
                 <h5>AstroBR</h5>
-                <p>AstroBR combines LLMs with dynamic app analysis to assess the steps to reproduce in bug reports. It outperformed the state of the art by 25.2% in S2R quality annotation and by 71.4% in missing-step identification.</p>
+                <p>AstroBR combines LLMs with dynamic app analysis to assess the steps to reproduce (S2Rs) in bug reports. It outperformed the state of the art by 25.2% in S2R quality annotation and by 71.4% in missing-step identification.</p>
                 <div class="chips"><a class="chip" href="/publications/#astrobr-2025" target="_blank" rel="noopener">ICPC'25</a><a class="chip" href="https://doi.org/10.1109/ICPC66645.2025.00010" target="_blank" rel="noopener">Proceedings</a><a class="chip" href="https://arxiv.org/abs/2502.04251" target="_blank" rel="noopener">arXiv</a><a class="chip" href="https://zenodo.org/records/14822745" target="_blank" rel="noopener">Artifact</a></div>
             </li>
             <li>
@@ -126,7 +129,7 @@
     <div class="card research-card mt-4">
         <div class="card-body">
             <h3 class="theme-title"><i class="fas fa-tasks" aria-hidden="true"></i>Issue resolution in practice</h3>
-            <p class="theme-lead">How developers resolve issues in real projects, and tools that support the hardest steps.</p>
+            <p class="theme-lead">We study how developers resolve issues in real projects. We also build tools for specific steps, such as finding similar issues and recovering the rationale behind code changes.</p>
             <ul class="research-items">
             <li>
                 <h5>Firefox</h5>
@@ -145,7 +148,7 @@
             </li>
             <li>
                 <h5>Code change rationale</h5>
-                <p>We traced where rationale is documented across the artifacts of 63 commits and built ARGUS, an LLM-based approach that recovers it. ArgusVS brings this into the IDE.</p>
+                <p>We traced where rationale is documented across the artifacts of 63 commits and built ARGUS, an LLM-based approach that recovers it. ArgusVS shows the recovered rationale inside the IDE.</p>
                 <div class="chips"><a class="chip" href="/publications/#code-change-rationale" target="_blank" rel="noopener">TOSEM, major revision</a><a class="chip" href="https://arxiv.org/abs/2604.10345" target="_blank" rel="noopener">arXiv</a><a class="chip" href="/publications/#argusvs" target="_blank" rel="noopener">ICSE'27 Demo, under review</a></div>
             </li>
             <li>

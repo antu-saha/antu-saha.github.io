@@ -53,6 +53,9 @@
                     <a class="nav-link" href="/publications/" aria-current="page">Publications<span class="sr-only"> (current)</span></a>
                 </li>
                 <li class="nav-item">
+                    <a class="nav-link" href="/talks/">Talks</a>
+                </li>
+                <li class="nav-item">
                     <a class="nav-link" href="/teaching/">Teaching</a>
                 </li>
                 <li class="nav-item">
@@ -71,9 +74,9 @@
     <h1>Publications</h1>
     <h6><sup>*</sup> equal contribution. <sup>&dagger;</sup> M.Sc. student I mentored. Also on <a href="https://scholar.google.com/citations?user=CwfNZTYAAAAJ&amp;hl=en&amp;oi=ao" target="_blank" rel="noopener">Google Scholar</a>.</h6>
 
-    <h4 class="mt-4">Under Review</h4>
-    <div class="row m-0 p-0" style="border-bottom: 1px solid #ddd;">
-        <div class="col-sm-11 p-0">
+    <h4 class="mt-4">Under Review and In Revision</h4>
+    <div class="row m-0 p-0">
+        <div class="col-12 p-0">
             <ol class="bibliography">
                 <li>
                     <div class="row m-0 mt-3 p-0">
@@ -167,12 +170,27 @@
                                     <a class="chip" href="https://arxiv.org/abs/2604.01148" target="_blank" rel="noopener">arXiv</a>
                                     <a class="chip" href="https://arxiv.org/pdf/2604.01148" target="_blank" rel="noopener">PDF</a>
                                     <a class="chip" href="https://zenodo.org/records/23624713" target="_blank" rel="noopener">Artifact</a>
+                                    <a class="chip" href="/assets/talks/2026-bugscribe-poster.pdf" target="_blank" rel="noopener">Poster</a>
                                 </div>
                                 <div class="col mt-2 p-0">
                                     <div id="bugscribe-abstract" class="collapse">
                                         <div class="abstract card card-body font-weight-light mr-0 mr-sm-3 p-3">Most defects in mobile applications are visually observable on the device screen. Since automated mechanisms for detecting and reporting such defects are often unavailable, users, testers, and developers must manually submit bug reports. However, these reports are frequently incomplete, ambiguous, or inaccurate, often lacking the information needed to understand, reproduce, and diagnose defects. We formulate automatic bug report enhancement as the problem of connecting user-written bug reports with application execution. We present BugScribe, an LLM-powered approach that links bug report information with app-specific UI execution information to infer and generate accurate, complete, and correct Observed Behavior (OB), Expected Behavior (EB), and Steps to Reproduce (S2Rs). To support BugScribe's design and evaluation, we develop a bug report quality model and use it to identify the most effective context for each component. We evaluate BugScribe on 48 bug reports from 26 Android applications with manually constructed ground truth. Our results show that BugScribe generates higher-quality bug report components than the original reports and three LLM-based baselines, improving S2R quality by 44.2%&ndash;84.7%, and OB/EB quality by up to 35.2%. We further show that BugScribe-generated reports help an LLM-based agent reproduce Android bugs, improving the reproduction rate by 28.1%&ndash;57.7% compared to the original reports and the baselines.</div>
                                     </div>
                                 </div>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <div class="row m-0 mt-3 p-0">
+                        <div class="col-sm-1 p-0 abbr">
+                            <a class="badge font-weight-bold danger-color-dark align-middle" style="width: 58px;" href="https://2027.msrconf.org/" target="_blank" rel="noopener">MSR'27</a>
+                        </div>
+                        <div class="col-sm-11 mt-2 mt-sm-0 p-0 pl-xs-0 pl-sm-4 pr-xs-0 pr-sm-2">
+                            <div id="se-ai-agent-index" class="col p-0">
+                                <h5 class="title mb-0">SE AI Agent Index: A Dataset of Software Engineering Practices for Agentic AI Systems</h5>
+                                <div class="author"><nobr>Mustahid Hasan</nobr>, <nobr><em>Antu Saha</em></nobr>, and <nobr>Oscar Chaparro.</nobr></div>
+                                <div><p class="periodical font-italic">Submitted to MSR'27, Tool and Data Track, 2026. <b>Under review.</b></p></div>
                             </div>
                         </div>
                     </div>
@@ -208,30 +226,14 @@
                         </div>
                     </div>
                 </li>
-                <li>
-                    <div class="row m-0 mt-3 p-0">
-                        <div class="col-sm-1 p-0 abbr">
-                            <a class="badge font-weight-bold danger-color-dark align-middle" style="width: 58px;" href="https://2027.msrconf.org/" target="_blank" rel="noopener">MSR'27</a>
-                        </div>
-                        <div class="col-sm-11 mt-2 mt-sm-0 p-0 pl-xs-0 pl-sm-4 pr-xs-0 pr-sm-2">
-                            <div id="se-ai-agent-index" class="col p-0">
-                                <h5 class="title mb-0">SE AI Agent Index: A Dataset of Software Engineering Practices for Agentic AI Systems</h5>
-                                <div class="author"><nobr>Mustahid Hasan</nobr>, <nobr><em>Antu Saha</em></nobr>, and <nobr>Oscar Chaparro.</nobr></div>
-                                <div><p class="periodical font-italic">Submitted to MSR'27, Tool and Data Track, 2026. <b>Under review.</b></p></div>
-                            </div>
-                        </div>
-                    </div>
-                </li>
             </ol>
-        </div>
-        <div class="col-sm-1 align-self-end mt-2 p-0 pr-1">
-            <h3 class="bibliography-year"></h3>
         </div>
     </div>
 
     <h4 class="mt-5">Refereed Publications</h4>
-    <div class="row m-0 p-0" style="border-bottom: 1px solid #ddd;">
-        <div class="col-sm-11 p-0">
+    <h3 class="pub-year">2026</h3>
+    <div class="row m-0 p-0">
+        <div class="col-12 p-0">
             <ol class="bibliography">
                 <li>
                     <div class="row m-0 mt-3 p-0">
@@ -244,9 +246,11 @@
                                 <div class="author"><nobr>Ahmed Adnan<sup>&dagger;</sup></nobr>, <nobr>Mushfiqur Rahman<sup>&dagger;</sup></nobr>, <nobr><em>Antu Saha</em></nobr>, and <nobr>Oscar Chaparro.</nobr></div>
                                 <div><p class="periodical font-italic">In Proceedings of the 42nd IEEE International Conference on Software Maintenance and Evolution (ICSME), Vision Track, 2026.</p></div>
                                 <div class="col p-0">
+                                    <span class="chip chip-static chip-type">Vision</span>
                                     <a class="chip" data-toggle="collapse" href="#ai-ml-issue-resolution-2026-abstract" role="button" aria-expanded="false" aria-controls="ai-ml-issue-resolution-2026-abstract">Abstract</a>
                                     <a class="chip" href="https://doi.org/10.1109/ICSME67971.2026.00144" target="_blank" rel="noopener">Proceedings</a><a class="chip" href="https://arxiv.org/abs/2607.14657" target="_blank" rel="noopener">arXiv</a>
                                     <a class="chip" href="https://arxiv.org/pdf/2607.14657" target="_blank" rel="noopener">PDF</a>
+                                    <a class="chip" href="/assets/talks/2026-icsme-slides/index.html" target="_blank" rel="noopener">Slides</a>
                                 </div>
                                 <div class="col mt-2 p-0">
                                     <div id="ai-ml-issue-resolution-2026-abstract" class="collapse">
@@ -268,9 +272,11 @@
                                 <div class="author"><nobr><em>Antu Saha</em>.</nobr></div>
                                 <div><p class="periodical font-italic">In Proceedings of the 48th IEEE/ACM International Conference on Software Engineering (ICSE), Doctoral Symposium, 2026.</p></div>
                                 <div class="col p-0">
+                                    <span class="chip chip-static chip-type">Doctoral Symposium</span>
                                     <a class="chip" data-toggle="collapse" href="#doctoral-symposium-2026-abstract" role="button" aria-expanded="false" aria-controls="doctoral-symposium-2026-abstract">Abstract</a>
                                     <a class="chip" href="https://doi.org/10.1145/3774748.3787662" target="_blank" rel="noopener">Proceedings</a><a class="chip" href="https://arxiv.org/abs/2512.10238" target="_blank" rel="noopener">arXiv</a>
                                     <a class="chip" href="https://arxiv.org/pdf/2512.10238" target="_blank" rel="noopener">PDF</a>
+                                    <a class="chip" href="/assets/talks/2026-icse-ds-poster.pdf" target="_blank" rel="noopener">Poster</a>
                                 </div>
                                 <div class="col mt-2 p-0">
                                     <div id="doctoral-symposium-2026-abstract" class="collapse">
@@ -283,12 +289,10 @@
                 </li>
             </ol>
         </div>
-        <div class="col-sm-1 align-self-end mt-2 p-0 pr-1">
-            <h3 class="bibliography-year">2026</h3>
-        </div>
     </div>
-    <div class="row m-0 p-0" style="border-bottom: 1px solid #ddd;">
-        <div class="col-sm-11 p-0">
+    <h3 class="pub-year">2025</h3>
+    <div class="row m-0 p-0">
+        <div class="col-12 p-0">
             <ol class="bibliography">
                 <li>
                     <div class="row m-0 mt-3 p-0">
@@ -301,10 +305,12 @@
                                 <div class="author"><nobr><em>Antu Saha</em></nobr> and <nobr>Oscar Chaparro.</nobr></div>
                                 <div><p class="periodical font-italic">In Proceedings of the 47th IEEE/ACM International Conference on Software Engineering (ICSE), Research Track, 2025.</p></div>
                                 <div class="col p-0">
+                                    <span class="chip chip-static chip-type">Conference</span>
                                     <a class="chip" data-toggle="collapse" href="#issue-resolution-pattern-2025-abstract" role="button" aria-expanded="false" aria-controls="issue-resolution-pattern-2025-abstract">Abstract</a>
                                     <a class="chip" href="https://doi.org/10.1109/ICSE55347.2025.00241" target="_blank" rel="noopener">Proceedings</a><a class="chip" href="https://arxiv.org/abs/2502.16546" target="_blank" rel="noopener">arXiv</a>
                                     <a class="chip" href="/assets/pdf/papers/icse-2025.pdf" target="_blank" rel="noopener">PDF</a>
                                     <a class="chip" href="https://zenodo.org/records/14860151" target="_blank" rel="noopener">Dataset</a>
+                                    <a class="chip" href="/assets/talks/2025-icse-slides.pdf" target="_blank" rel="noopener">Slides</a>
                                     <span class="ml-2" title="ACM artifact badges"><span class="badge badge-available mr-1">Available</span><span class="badge badge-functional mr-1">Functional</span><span class="badge badge-reusable mr-1">Reusable</span></span>
                                 </div>
                                 <div class="col mt-2 p-0">
@@ -327,10 +333,12 @@
                                 <div class="author"><nobr>Junayed Mahmud<sup>*</sup></nobr>, <nobr><em>Antu Saha</em><sup>*</sup></nobr>, <nobr>Oscar Chaparro</nobr>, <nobr>Kevin Moran</nobr>, and <nobr>Andrian Marcus.</nobr></div>
                                 <div><p class="periodical font-italic">In Proceedings of the 33rd IEEE/ACM International Conference on Program Comprehension (ICPC), Research Track, 2025.</p></div>
                                 <div class="col p-0">
+                                    <span class="chip chip-static chip-type">Conference</span>
                                     <a class="chip" data-toggle="collapse" href="#astrobr-2025-abstract" role="button" aria-expanded="false" aria-controls="astrobr-2025-abstract">Abstract</a>
                                     <a class="chip" href="https://doi.org/10.1109/ICPC66645.2025.00010" target="_blank" rel="noopener">Proceedings</a><a class="chip" href="https://arxiv.org/abs/2502.04251" target="_blank" rel="noopener">arXiv</a>
                                     <a class="chip" href="https://arxiv.org/pdf/2502.04251" target="_blank" rel="noopener">PDF</a>
                                     <a class="chip" href="https://zenodo.org/records/14822745" target="_blank" rel="noopener">Artifact</a>
+                                    <a class="chip" href="/assets/talks/2025-icpc-slides/index.html" target="_blank" rel="noopener">Slides</a>
                                 </div>
                                 <div class="col mt-2 p-0">
                                     <div id="astrobr-2025-abstract" class="collapse">
@@ -352,10 +360,13 @@
                                 <div class="author"><nobr>Ahmed Adnan<sup>&dagger;</sup></nobr>, <nobr><em>Antu Saha</em></nobr>, and <nobr>Oscar Chaparro.</nobr></div>
                                 <div><p class="periodical font-italic">In Proceedings of the 22nd IEEE/ACM International Conference on Mining Software Repositories (MSR), Tool Demo Track, 2025.</p></div>
                                 <div class="col p-0">
+                                    <span class="chip chip-static chip-type">Tool Demo</span>
                                     <a class="chip" data-toggle="collapse" href="#sprint-2025-abstract" role="button" aria-expanded="false" aria-controls="sprint-2025-abstract">Abstract</a>
                                     <a class="chip" href="https://doi.org/10.1109/MSR66628.2025.00025" target="_blank" rel="noopener">Proceedings</a><a class="chip" href="https://arxiv.org/abs/2502.04147" target="_blank" rel="noopener">arXiv</a>
                                     <a class="chip" href="https://arxiv.org/pdf/2502.04147" target="_blank" rel="noopener">PDF</a>
                                     <a class="chip" href="https://github.com/sea-lab-wm/sprint_issue_report_assistant_tool" target="_blank" rel="noopener">Code</a>
+                                    <a class="chip" href="/assets/talks/2025-msr-slides/index.html" target="_blank" rel="noopener">Slides</a>
+                                    <a class="chip" href="/assets/talks/2025-msr-sprint-poster.pdf" target="_blank" rel="noopener">Poster</a>
                                 </div>
                                 <div class="col mt-2 p-0">
                                     <div id="sprint-2025-abstract" class="collapse">
@@ -368,12 +379,10 @@
                 </li>
             </ol>
         </div>
-        <div class="col-sm-1 align-self-end mt-2 p-0 pr-1">
-            <h3 class="bibliography-year">2025</h3>
-        </div>
     </div>
-    <div class="row m-0 p-0" style="border-bottom: 1px solid #ddd;">
-        <div class="col-sm-11 p-0">
+    <h3 class="pub-year">2024</h3>
+    <div class="row m-0 p-0">
+        <div class="col-12 p-0">
             <ol class="bibliography">
                 <li>
                     <div class="row m-0 mt-3 p-0">
@@ -386,11 +395,13 @@
                                 <div class="author"><nobr><em>Antu Saha</em></nobr>, <nobr>Yang Song</nobr>, <nobr>Junayed Mahmud</nobr>, <nobr>Ying Zhou</nobr>, <nobr>Kevin Moran</nobr>, and <nobr>Oscar Chaparro.</nobr></div>
                                 <div><p class="periodical font-italic">In Proceedings of the 33rd ACM SIGSOFT International Symposium on Software Testing and Analysis (ISSTA), Research Track, 2024.</p></div>
                                 <div class="col p-0">
+                                    <span class="chip chip-static chip-type">Conference</span>
                                     <a class="chip" data-toggle="collapse" href="#buggy-ui-loc-2024-abstract" role="button" aria-expanded="false" aria-controls="buggy-ui-loc-2024-abstract">Abstract</a>
                                     <a class="chip" href="https://doi.org/10.1145/3650212.3680357" target="_blank" rel="noopener">Proceedings</a>
                                     <a class="chip" href="https://arxiv.org/abs/2408.04075" target="_blank" rel="noopener">arXiv</a>
                                     <a class="chip" href="/assets/pdf/papers/issta-2024.pdf" target="_blank" rel="noopener">PDF</a>
                                     <a class="chip" href="https://zenodo.org/records/12692994" target="_blank" rel="noopener">Artifact</a>
+                                    <a class="chip" href="/assets/talks/2024-issta-slides/index.html" target="_blank" rel="noopener">Slides</a>
                                     <span class="ml-2" title="ACM artifact badges"><span class="badge badge-available mr-1">Available</span><span class="badge badge-functional mr-1">Functional</span><span class="badge badge-reusable mr-1">Reusable</span></span>
                                 </div>
                                 <div class="col mt-2 p-0">
@@ -404,15 +415,12 @@
                 </li>
             </ol>
         </div>
-        <div class="col-sm-1 align-self-end mt-2 p-0 pr-1">
-            <h3 class="bibliography-year">2024</h3>
-        </div>
     </div>
 
-    <h4 class="mt-5">Earlier Work</h4>
-    <h6>Before my Ph.D.</h6>
-    <div class="row m-0 p-0" style="border-bottom: 1px solid #ddd;">
-        <div class="col-sm-11 p-0">
+    <h4 class="mt-5">Before the Ph.D.</h4>
+    <h3 class="pub-year">2021</h3>
+    <div class="row m-0 p-0">
+        <div class="col-12 p-0">
             <ol class="bibliography">
                 <li>
                     <div class="row m-0 mt-3 p-0">
@@ -425,6 +433,7 @@
                                 <div class="author"><nobr>Momotaz Begum</nobr>, <nobr>Bimal Chandra Das</nobr>, <nobr>Md Zakir Hossain</nobr>, <nobr><em>Antu Saha</em></nobr>, and <nobr>Khaleda Akther Papry.</nobr></div>
                                 <div><p class="periodical font-italic">Indonesian Journal of Electrical Engineering and Computer Science (IJEECS), 2021.</p></div>
                                 <div class="col p-0">
+                                    <span class="chip chip-static chip-type">Journal</span>
                                     <a class="chip" data-toggle="collapse" href="#KSOM-2021-abstract" role="button" aria-expanded="false" aria-controls="KSOM-2021-abstract">Abstract</a>
                                     <a class="chip" href="https://doi.org/10.11591/ijeecs.v24.i1.pp600-610" target="_blank" rel="noopener">Journal</a><a class="chip" href="/assets/pdf/papers/ijeecs-2021.pdf" target="_blank" rel="noopener">PDF</a>
                                 </div>
@@ -439,12 +448,10 @@
                 </li>
             </ol>
         </div>
-        <div class="col-sm-1 align-self-end mt-2 p-0 pr-1">
-            <h3 class="bibliography-year">2021</h3>
-        </div>
     </div>
-    <div class="row m-0 p-0" style="border-bottom: 1px solid #ddd;">
-        <div class="col-sm-11 p-0">
+    <h3 class="pub-year">2019</h3>
+    <div class="row m-0 p-0">
+        <div class="col-12 p-0">
             <ol class="bibliography">
                 <li>
                     <div class="row m-0 mt-3 p-0">
@@ -457,6 +464,7 @@
                                 <div class="author"><nobr><em>Antu Saha</em></nobr>, <nobr>Joydev Saha</nobr>, and <nobr>Barshon Sen.</nobr></div>
                                 <div><p class="periodical font-italic">In Proceedings of the 2019 International Conference on Electrical, Computer and Communication Engineering (ECCE), 2019.</p></div>
                                 <div class="col p-0">
+                                    <span class="chip chip-static chip-type">Conference</span>
                                     <a class="chip" data-toggle="collapse" href="#IrisRetina-2019-abstract" role="button" aria-expanded="false" aria-controls="IrisRetina-2019-abstract">Abstract</a>
                                     <a class="chip" href="https://doi.org/10.1109/ECACE.2019.8679153" target="_blank" rel="noopener">Proceedings</a><a class="chip" href="/assets/pdf/papers/ecce-19.pdf" target="_blank" rel="noopener">PDF</a>
                                 </div>
@@ -470,9 +478,6 @@
                     </div>
                 </li>
             </ol>
-        </div>
-        <div class="col-sm-1 align-self-end mt-2 p-0 pr-1">
-            <h3 class="bibliography-year">2019</h3>
         </div>
     </div>
 </div>

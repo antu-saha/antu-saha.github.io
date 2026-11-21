@@ -81,6 +81,9 @@
                     <a class="nav-link" href="/publications/">Publications</a>
                 </li>
                 <li class="nav-item">
+                    <a class="nav-link" href="/talks/">Talks</a>
+                </li>
+                <li class="nav-item">
                     <a class="nav-link" href="/teaching/">Teaching</a>
                 </li>
                 <li class="nav-item">
@@ -112,9 +115,6 @@
                     <li data-target="#photo-carousel" data-slide-to="2"></li>
                     <li data-target="#photo-carousel" data-slide-to="3"></li>
                     <li data-target="#photo-carousel" data-slide-to="4"></li>
-                    <li data-target="#photo-carousel" data-slide-to="5"></li>
-                    <li data-target="#photo-carousel" data-slide-to="6"></li>
-                    <li data-target="#photo-carousel" data-slide-to="7"></li>
                 </ol>
                 <div class="carousel-inner">
                     <div class="carousel-item active">
@@ -123,19 +123,9 @@
                         <div class="photo-caption">International Student Achievement Award, William &amp; Mary, 2025</div>
                     </div>
                     <div class="carousel-item">
-                        <div class="photo-bg" style="background-image: url('/assets/img/gallery/2025-icpc-talk.jpg');"></div>
-                        <img src="/assets/img/gallery/2025-icpc-talk.jpg" alt="Antu Saha presenting the AstroBR paper at a podium at ICPC 2025" loading="lazy">
-                        <div class="photo-caption">Presenting AstroBR at ICPC 2025, Ottawa</div>
-                    </div>
-                    <div class="carousel-item">
-                        <div class="photo-bg" style="background-image: url('/assets/img/gallery/2025-msr-poster.jpg');"></div>
-                        <img src="/assets/img/gallery/2025-msr-poster.jpg" alt="Antu Saha standing next to the Sprint poster at MSR 2025" loading="lazy">
-                        <div class="photo-caption">Sprint tool demo at MSR 2025, Ottawa</div>
-                    </div>
-                    <div class="carousel-item">
-                        <div class="photo-bg" style="background-image: url('/assets/img/gallery/2025-icse.jpg');"></div>
-                        <img src="/assets/img/gallery/2025-icse.jpg" alt="Antu Saha, a student volunteer, at the ICSE 2025 sponsor wall" loading="lazy">
-                        <div class="photo-caption">Student volunteer at ICSE 2025, Ottawa</div>
+                        <div class="photo-bg" style="background-image: url('/assets/img/gallery/icse-volunteer-collage.jpg');"></div>
+                        <img class="collage" src="/assets/img/gallery/icse-volunteer-collage.jpg" alt="Two photos of Antu Saha as a student volunteer: under the ICSE 24 sign in Lisbon, and at the ICSE 2025 sponsor wall in Ottawa" loading="lazy">
+                        <div class="photo-caption">Student volunteer at ICSE 2024 (Lisbon) and ICSE 2025 (Ottawa)</div>
                     </div>
                     <div class="carousel-item">
                         <div class="photo-bg" style="background-image: url('/assets/img/gallery/2024-issta.jpg');"></div>
@@ -146,11 +136,6 @@
                         <div class="photo-bg" style="background-image: url('/assets/img/gallery/2024-poster-award.jpg');"></div>
                         <img src="/assets/img/gallery/2024-poster-award.jpg" alt="Antu Saha holding the Best Poster Award certificate at the William &amp; Mary CS Graduate Symposium" loading="lazy">
                         <div class="photo-caption">Best Poster Award, W&amp;M CS Graduate Symposium 2024</div>
-                    </div>
-                    <div class="carousel-item">
-                        <div class="photo-bg" style="background-image: url('/assets/img/gallery/2024-icse.jpg');"></div>
-                        <img src="/assets/img/gallery/2024-icse.jpg" alt="Antu Saha, a student volunteer, under the ICSE 24 sign in Lisbon" loading="lazy">
-                        <div class="photo-caption">Student volunteer at ICSE 2024, Lisbon</div>
                     </div>
                     <div class="carousel-item">
                         <div class="photo-bg" style="background-image: url('/assets/img/gallery/2023-icsme.jpg');"></div>
@@ -166,10 +151,10 @@
 
     <!-- Introduction -->
     <div class="col bio p-0">
-        <p>I am a Ph.D. candidate in Computer Science at <a href="https://www.wm.edu/" target="_blank" rel="noopener">William &amp; Mary</a>, advised by <a href="https://ojcchar.github.io/" target="_blank" rel="noopener">Dr. Oscar Chaparro</a> in the <a href="https://ojcchar.github.io/lab/" target="_blank" rel="noopener">Software Evolution and Analysis (SEA) Lab</a>. I expect to graduate in May 2027. My dissertation is titled <i><a href="https://doi.org/10.1145/3774748.3787662" target="_blank" rel="noopener">Studying and Automating Issue Resolution to Ensure Software Quality</a></i>.</p>
+        <p>I am a Ph.D. candidate in Computer Science at <a href="https://www.wm.edu/" target="_blank" rel="noopener">William &amp; Mary</a>, advised by <a href="https://ojcchar.github.io/" target="_blank" rel="noopener">Dr. Oscar Chaparro</a> in the <a href="https://ojcchar.github.io/lab/" target="_blank" rel="noopener">Software Evolution and Analysis (SEA) Lab</a>. I expect to graduate in May 2027. My dissertation is titled <i>Studying and Automating Issue Resolution to Ensure Software Quality</i> (<a href="https://doi.org/10.1145/3774748.3787662" target="_blank" rel="noopener">Doctoral Symposium paper</a>).</p>
 
         <div class="job-market">
-            <b>I am on the 2026&ndash;2027 job market for faculty and industry research positions, and I am available from June 2027.</b>
+            <b>I am on the 2026&ndash;2027 job market for faculty and industry research positions. I am available from June 2027.</b>
             <div class="chips mt-2">
                 <a class="chip" href="/cv/" target="_blank" rel="noopener"><i class="fas fa-file-alt" aria-hidden="true"></i>CV</a>
                 <a class="chip" href="/resume/" target="_blank" rel="noopener"><i class="fas fa-briefcase" aria-hidden="true"></i>R&eacute;sum&eacute;</a>
@@ -180,19 +165,20 @@
 
         <div class="research-interests">
             <h5 class="ri-title"><i class="fas fa-compass" aria-hidden="true"></i>Research Interests</h5>
-            <p>My research is in <b>AI for software engineering (AI4SE)</b>, with a focus on software maintenance and evolution. I conduct empirical studies and build techniques and tools that help end users, developers, and AI coding agents report, analyze, and resolve software issues, such as bugs and feature requests. I work with issue reports, developer discussions, source code, and the user interfaces of mobile apps, using LLMs and program analysis.</p>
-            <p class="mb-0"><b>Vision.</b> AI coding agents can now fix bugs from issue reports, but users still write free-text reports and wait while developers ask questions, reproduce the problem, and fix it. My long-term goal is <i>vibe bug resolution</i>: a user describes a problem in their own words to an AI agent, which asks what it needs, reproduces the problem, fixes it, and confirms the fix with the user. Developers then review the change before release.</p>
+            <p>My research is in <b>AI for software engineering (AI4SE)</b>, with a focus on software maintenance and evolution. I run empirical studies and build techniques and tools that help end users, developers, and AI coding agents report, analyze, and resolve software issues (e.g., bugs and feature requests). I work with issue reports, developer discussions, source code, and the user interfaces of mobile apps, using LLMs and program analysis.</p>
+            <p class="mb-0"><b>Vision.</b> AI coding agents can now fix bugs from issue reports. Still, users write free-text reports and then wait while developers ask questions, reproduce the problem, and fix it. My long-term goal is what I call <i>vibe bug resolution</i>. A user describes a problem to an AI agent in their own words. The agent asks for what it needs, reproduces the bug, fixes it, and checks the fix with the user. Developers review the change before release.</p>
         </div>
 
-        <p class="mb-1"><b>Recent work.</b></p>
+        <p class="mb-1"><b>Selected Publications.</b></p>
         <ul>
-            <li><b>What AI coding agents need from bug reports.</b> We ran three agents (Codex, Claude, and Qwen) on about 50 real Android UI bugs from over 20 apps. We varied the bug report content in more than a dozen ways, for over 7,500 repair attempts. Steps to reproduce had positive estimated effects for all three agents. Code localization reduced the median repair cost by over 30% for both Codex and Claude. <span class="chip chip-static">FSE'27, under review</span></li>
-            <li><b>How agents repair UI bugs.</b> In a companion study of hundreds of repair attempts, agent patches passed the tests in about three-quarters of attempts. About one in seven attempts matched the developer's fix. Nearly all other test-passing patches were valid alternative fixes, and very few overfit the tests. <span class="chip chip-static">FSE'27, under review</span></li>
-            <li><b>Better bug reports.</b> BugScribe grounds an LLM in the app's execution data to improve user-written bug reports. It improved the quality of the steps to reproduce by 44.2%&ndash;84.7% and raised an LLM agent's bug reproduction rate by 28.1%&ndash;57.7%. <span class="chip chip-static">MSR'27, under review</span><a class="chip" href="https://arxiv.org/abs/2604.01148" target="_blank" rel="noopener">arXiv</a><a class="chip" href="https://zenodo.org/records/23624713" target="_blank" rel="noopener">Artifact</a></li>
-            <li><b>Issue resolution in practice.</b> We analyzed 356 Firefox issue reports and found 47 recurring resolution patterns. <a class="chip" href="/publications/#issue-resolution-pattern-2025" target="_blank" rel="noopener">ICSE'25</a><a class="chip" href="https://arxiv.org/abs/2502.16546" target="_blank" rel="noopener">arXiv</a><a class="chip" href="https://zenodo.org/records/14860151" target="_blank" rel="noopener">Dataset</a></li>
+            <li><i>Decoding the Issue Resolution Process in Practice via Issue Report Analysis: A Case Study of Firefox.</i> We analyzed 356 Firefox issue reports and found 47 recurring resolution patterns. <a class="chip" href="/publications/#issue-resolution-pattern-2025" target="_blank" rel="noopener">ICSE'25</a><a class="chip" href="https://arxiv.org/abs/2502.16546" target="_blank" rel="noopener">arXiv</a><a class="chip" href="https://zenodo.org/records/14860151" target="_blank" rel="noopener">Dataset</a></li>
+            <li><i>Toward the Automated Localization of Buggy Mobile App UIs from Bug Descriptions.</i> We built a benchmark of 228 bug descriptions from 39 Android apps for finding the buggy screens and UI components. Using the localized screens ranked the buggy code up to 12% more accurately. <a class="chip" href="/publications/#buggy-ui-loc-2024" target="_blank" rel="noopener">ISSTA'24</a><a class="chip" href="https://arxiv.org/abs/2408.04075" target="_blank" rel="noopener">arXiv</a><a class="chip" href="https://zenodo.org/records/12692994" target="_blank" rel="noopener">Artifact</a></li>
+            <li><i>Combining Language and App UI Analysis for the Automated Assessment of Bug Reproduction Steps.</i> AstroBR maps the steps to reproduce in a bug report to the app's GUI interactions using an LLM and dynamic app analysis. It annotated step quality 25.2% better than the state of the art and found missing steps 71.4% better. <a class="chip" href="/publications/#astrobr-2025" target="_blank" rel="noopener">ICPC'25</a><a class="chip" href="https://arxiv.org/abs/2502.04251" target="_blank" rel="noopener">arXiv</a><a class="chip" href="https://zenodo.org/records/14822745" target="_blank" rel="noopener">Artifact</a></li>
+            <li><i>An Empirical Study of Bug Report Content for AI Coding Agents on Mobile Apps.</i> We ran three agents (Codex, Claude, and Qwen) on about 50 real Android UI bugs from over 20 apps. We varied the bug report content in more than a dozen ways, for over 7,500 repair attempts. Steps to reproduce had positive estimated effects for all three agents. Code localization reduced the median repair cost by over 30% for both Codex and Claude. <span class="chip chip-static">Under review at FSE'27</span></li>
+            <li><i>An Analysis of AI Agent Patches for Mobile App Bugs.</i> In this companion study of hundreds of repair attempts, agent patches passed the tests in about three-quarters of attempts. About one in seven attempts matched the developer's fix. Nearly all other test-passing patches were valid alternative fixes, and very few overfit the tests. <span class="chip chip-static">Under review at FSE'27</span></li>
         </ul>
 
-        <p>My work includes six peer-reviewed papers (ICSE, ISSTA, ICSME, MSR, and ICPC) and eight papers under review. Our ICSE'25 and ISSTA'24 artifacts received the Available, Functional, and Reusable badges. See the <a href="/research/" target="_blank" rel="noopener">Research</a> and <a href="/publications/" target="_blank" rel="noopener">Publications</a> pages for details.</p>
+        <p>My work includes six peer-reviewed papers (ICSE, ISSTA, ICSME, MSR, and ICPC). Our ICSE'25 and ISSTA'24 artifacts received the Available, Functional, and Reusable badges. See the <a href="/research/" target="_blank" rel="noopener">Research</a>, <a href="/publications/" target="_blank" rel="noopener">Publications</a>, and <a href="/talks/" target="_blank" rel="noopener">Talks</a> pages for details.</p>
 
         <p>Before my Ph.D., I was a Lecturer in Computer Science and Engineering at <a href="https://www.duet.ac.bd/" target="_blank" rel="noopener">Dhaka University of Engineering &amp; Technology (DUET), Gazipur, Bangladesh</a> (2018&ndash;2022) and at <a href="https://mist.ac.bd/" target="_blank" rel="noopener">Military Institute of Science and Technology (MIST), Bangladesh</a> (2018). I received my B.Sc. in Computer Science and Engineering from <a href="https://www.ruet.ac.bd/" target="_blank" rel="noopener">Rajshahi University of Engineering &amp; Technology (RUET), Rajshahi, Bangladesh</a>.</p>
 
@@ -208,7 +194,7 @@
                 <span class="badge danger-color-dark font-weight-bold text-uppercase align-middle date ml-3">Nov, 2026</span>
             </div>
             <div class="col-sm-10 mt-2 mt-sm-0 ml-3 ml-md-0 p-0 text">
-                <p>Poster at the <a href="https://wmcsymp.github.io/" target="_blank" rel="noopener">W&amp;M CS Symposium for Graduate Studies 2026</a>: <b>Automatically Enhancing Android Bug Reports by Connecting Report Information to App Execution</b>.</p>
+                <p>Presented a poster on our paper <b><a href="https://arxiv.org/abs/2604.01148" target="_blank" rel="noopener">Automatically Enhancing the Quality of Android App Bug Reports</a></b> at the <a href="https://wmcsymp.github.io/" target="_blank" rel="noopener">W&amp;M CS Symposium for Graduate Studies 2026</a>.</p>
             </div>
         </div>
 
@@ -235,7 +221,7 @@
                 <span class="badge danger-color-dark font-weight-bold text-uppercase align-middle date ml-3">Apr, 2026</span>
             </div>
             <div class="col-sm-10 mt-2 mt-sm-0 ml-3 ml-md-0 p-0 text">
-                <p>Attended <a href="https://conf.researchr.org/home/icse-2026" target="_blank" rel="noopener">ICSE'26</a> in Rio de Janeiro, Brazil: presented a <a href="https://doi.org/10.1145/3774748.3787662" target="_blank" rel="noopener">Doctoral Symposium poster</a>, served as a <b>session chair</b>, and volunteered.</p>
+                <p>Presented a <a href="https://doi.org/10.1145/3774748.3787662" target="_blank" rel="noopener">Doctoral Symposium poster</a>, served as a <b>session chair</b>, and volunteered at <a href="https://conf.researchr.org/home/icse-2026" target="_blank" rel="noopener">ICSE'26</a> in Rio de Janeiro, Brazil.</p>
             </div>
         </div>
 
