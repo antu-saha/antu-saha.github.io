@@ -127,8 +127,8 @@ progress::-moz-progress-bar { background-color: var(--accent); }
 .talk-text { flex: 1 1 auto; min-width: 0; }
 .talk-list .talk-venue { font-weight: 700; color: #3c4858; }
 .talk-list .talk-title { margin: 0.15rem 0 0.3rem; }
-.talk-photo { flex: 0 0 220px; display: block; }
-.talk-photo img { width: 220px; height: 150px; object-fit: cover; border-radius: 6px; box-shadow: 0 1px 4px rgba(0,0,0,.15); }
+.talk-photo { flex: 0 0 180px; display: block; }
+.talk-photo img { width: 180px; height: 120px; object-fit: cover; border-radius: 6px; box-shadow: 0 1px 4px rgba(0,0,0,.15); }
 .talk-list > li.talk-award { background: var(--accent-tint); border: 1px solid var(--accent-border); border-left: 4px solid var(--accent); border-radius: 4px; padding: 0.8rem 0.9rem; margin: 0.4rem 0; }
 .talk-award .award-label { color: var(--accent); font-weight: 700; font-size: 0.9rem; margin-bottom: 0.2rem; }
 .talk-award .award-label i { margin-right: 6px; }
