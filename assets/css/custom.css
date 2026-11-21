@@ -120,13 +120,20 @@ progress::-moz-progress-bar { background-color: var(--accent); }
 /* Volunteer collage slide: show the whole collage. */
 #photo-carousel .carousel-item img.collage { object-fit: contain; }
 
-/* Talks page. */
+/* Talks page: text on the left, photo on the right (stacks on phones). */
 .talk-list { list-style: none; padding: 0; margin: 0; }
-.talk-list > li { padding: 0.7rem 0; border-top: 1px solid #eee; }
+.talk-list > li { display: flex; align-items: flex-start; gap: 16px; padding: 0.8rem 0; border-top: 1px solid #eee; }
 .talk-list > li:first-child { border-top: 0; }
+.talk-text { flex: 1 1 auto; min-width: 0; }
 .talk-list .talk-venue { font-weight: 700; color: #3c4858; }
 .talk-list .talk-title { margin: 0.15rem 0 0.3rem; }
-.talk-photos { display: flex; flex-wrap: wrap; gap: 12px; margin: 0.5rem 0 1rem; }
-.talk-photos figure { flex: 1 1 280px; max-width: 420px; margin: 0; }
-.talk-photos img { width: 100%; height: 260px; object-fit: cover; border-radius: 6px; }
-.talk-photos figcaption { font-size: 0.85rem; color: #5f6368; margin-top: 0.3rem; }
+.talk-photo { flex: 0 0 220px; display: block; }
+.talk-photo img { width: 220px; height: 150px; object-fit: cover; border-radius: 6px; box-shadow: 0 1px 4px rgba(0,0,0,.15); }
+.talk-list > li.talk-award { background: var(--accent-tint); border: 1px solid var(--accent-border); border-left: 4px solid var(--accent); border-radius: 4px; padding: 0.8rem 0.9rem; margin: 0.4rem 0; }
+.talk-award .award-label { color: var(--accent); font-weight: 700; font-size: 0.9rem; margin-bottom: 0.2rem; }
+.talk-award .award-label i { margin-right: 6px; }
+@media (max-width: 767.98px) {
+  .talk-list > li { flex-direction: column; }
+  .talk-photo { flex-basis: auto; align-self: stretch; max-width: 360px; }
+  .talk-photo img { width: 100%; max-width: 360px; height: 200px; }
+}
